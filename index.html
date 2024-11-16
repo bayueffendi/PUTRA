@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Desa Selabaya, Purbalingga</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #e8f5e9; /* Light green background */
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        header {
+            background: linear-gradient(45deg, #4CAF50, #81C784); /* Green gradient */
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        header h4 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #33691E; /* Dark Green */
+            color: white;
+            padding: 15px 0;
+        }
+
+        nav .logo-link {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav .navigation {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        nav .navigation li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav .navigation li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav .navigation li a:hover {
+            color: #FFD700; /* Yellow */
+        }
+
+        /* Map Section */
+        .map {
+            padding: 50px 0;
+            background-color: #A5D6A7; /* Light Mint Green */
+        }
+
+        .map .title {
+            font-size: 2.5rem;
+            color: #33691E;
+            margin-bottom: 20px;
+        }
+
+        .map-container {
+            background-color: #FFFFFF; /* White */
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 500px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #33691E; /* Dark Green */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer .social a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .footer .social a:hover {
+            color: #FFD700; /* Yellow */
+        }
+
+        .footer .credits {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #A5D6A7; /* Light Green */
+        }
+
+        /* Floating Action Button */
+        .fab {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border-radius: 50%;
+            padding: 15px 20px;
+            font-size: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .fab:hover {
+            background-color: #33691E; /* Darker Green */
+        }
+
+        @media (max-width: 767px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header h4 {
+                font-size: 1.2rem;
+            }
+
+            nav .logo-link {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="logo-link">Desa Selabaya</a>
+            <ul class="navigation">
+                <li><a href="#about">Sejarah</a></li>
+                <li><a href="#map">Peta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section" id="home">
+        <div class="container text-center">
+            <h1 class="display-6">Selamat Datang di Desa Selabaya, Purbalingga</h1>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJm-u5ywSwwwsBQgM-29UOH_pBtfhQOBaID37uXO75Nxn6YM3tZHtVixKTBXVhQ5Ao7GTasUob1ZJ2q1GcjSSfrhfawfzAp6CMeDfIcJJEuP6eh22-_Y4gLtDIvGhI-2PqCK7AyOJZdds/s400/image001.jpg" alt="Desa Selabaya" class="img-fluid rounded my-3">
+
+            <header id="home">
+                <div class="container text-center d-flex justify-content-between align-items-center">
+                    <h1><strong>Kecamatan Kalimanah, Kabupaten Purbalingga</strong></h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Lambang_Kabupaten_Purbalingga.png" alt="Logo Jawa Tengah" class="img-fluid" style="width: 100px; height: auto;">
+                    <h4>"Bersatu Membangun Masa Depan Desa Selabaya"</h4>
+                </div>
+            </header>
+        </div>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <p class="lead">Desa Selabaya terletak di Kecamatan Kalimanah, Kabupaten Purbalingga, Provinsi Jawa Tengah. Desa ini terkenal dengan keindahan alam dan budaya lokalnya yang kaya.</p>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map" id="map">
+            <div class="container text-center">
+                <h1 class="title">Lokasi Desa Selabaya, Kecamatan Kalimanah</h1>
+                <p class="subtitle">Temukan Wilayah Desa Selabaya, Kecamatan Kalimanah!</p>
+                <div class="map-container">
+                    <iframe src="https://selabaya.netlify.app/" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <h4>Desa Selabaya, Purbalingga</h4>
+                <div class="social">
+                    <a href="https://www.instagram.com/kecamatan.kalimanah/profilecard/?igsh=eWptdTYwcXFmemFp" target="_blank"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://wa.me/628871382771" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+                </div>
+                <p><i class="ri-double-quotes-l"></i> Menuju Desa Selabaya yang Sejahtera dan Berbudaya. <i class="ri-double-quotes-r"></i></p>
+                <div class="credits">
+                    <p>Created by Timothy Putra Setyadi, Mahasiswa Universitas Amikom Purwokerto</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Floating Action Button -->
+        <div class="fab" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+            <i class="ri-arrow-up-line"></i>
+        </div>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal().reveal('.scroll-reveal', { distance: '100px', origin: 'bottom', duration: 1500, delay: 200 });
+        </script>
+</body>
+
+</html>
